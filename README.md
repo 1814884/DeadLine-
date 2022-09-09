@@ -9,6 +9,7 @@ DeadLine是一个社交圈子论坛微信小程序
 后台服务端基于ThinkPHP6开发，是一套兴趣社区论坛系统，将来版本迭代会增加活动、话题、小组、IM 等功能，将来也会开发 APP 和网页端。
 
 官网: https://www.uosat.com
+
 文档: https://www.uosat.com/docs
 
 ps:目前仅适配微信小程序端
