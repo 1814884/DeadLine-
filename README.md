@@ -1,7 +1,7 @@
 # DeadLine社交论坛小程序
 
 #### 扫码预览
-
+![输入图片说明](images%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220909191604.jpg)
 
 #### 介绍
 DeadLine是一个社交圈子论坛微信小程序
@@ -34,11 +34,10 @@ ps:目前仅适配微信小程序端
 4.  新建 Pull Request
 
 
-#### 支持与联系
+#### 联系
 
 微信：im_0512
 
-QQ：79597135
-
 QQ交流群：1028610919
+![输入图片说明](imagesDeadLine%E7%A4%BE%E4%BA%A4%E8%AE%BA%E5%9D%9B%E9%A1%B9%E7%9B%AE%E4%BA%A4%E6%B5%81%E7%BE%A4%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
 
