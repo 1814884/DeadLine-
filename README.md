@@ -4,7 +4,12 @@
 
 
 #### 介绍
-DeadLine社交圈子论坛程序,后台服务端基于ThinkPHP6开发，是一套兴趣社区论坛系统，代码开源免费使用，如果觉得还不错，帮忙给个五星好评，使用过程中如遇到安装或者其他问题，请联系我们进行解决。
+DeadLine是一个社交圈子论坛微信小程序
+当前产品功能以（图文、视频、投票）动态分享为核心，支持点赞、评论、回复、分享。
+后台服务端基于ThinkPHP6开发，是一套兴趣社区论坛系统，将来版本迭代会增加活动、话题、小组、IM 等功能，将来也会开发 APP 和网页端。
+
+官网: https://www.uosat.com
+文档: https://www.uosat.com/docs
 
 ps:目前仅适配微信小程序端
 
@@ -28,11 +33,11 @@ ps:目前仅适配微信小程序端
 4.  新建 Pull Request
 
 
-#### 特技
+#### 支持与联系
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+微信：im_0512
+
+QQ：79597135
+
+QQ交流群：1028610919
+
