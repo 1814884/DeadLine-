@@ -1,0 +1,268 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2c2c2c",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home-1.png",
+				"selectedIconPath": "static/tabbar/home.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/more/more",
+				"iconPath": "static/tabbar/quanzi-1.png",
+				"selectedIconPath": "static/tabbar/quanzi.png",
+				"text": "圈子"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/tabbar/msg-1.png",
+				"selectedIconPath": "static/tabbar/msg.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my-1.png",
+				"selectedIconPath": "static/tabbar/my.png",
+				"text": "我的"
+			}
+		]
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "DeadLine-发现趣味相投的人",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle":"dark",
+				"navigationStyle":"custom"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/post/detail",
+			"style": {}
+		}, {
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/user/home",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/topic/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle":"white"
+			}
+		}, {
+			"path": "pages/discuss/detail",
+			"style": {}
+		}, {
+			"path": "pages/my/discuss",
+			"style": {}
+		}, {
+			"path": "pages/my/topic",
+			"style": {}
+		}, {
+			"path": "pages/my/post",
+			"style": {}
+		}, {
+			"path": "pages/my/thumb",
+			"style": {}
+		}, {
+			"path": "pages/post/add",
+			"style": {}
+		}, {
+			"path": "pages/message/message",
+			"style": {}
+		}, {
+			"path": "pages/message/list",
+			"style": {}
+		}, {
+			"path": "pages/my/fans",
+			"style": {}
+		}, {
+			"path": "pages/my/follow",
+			"style": {}
+		}, {
+			"path": "pages/topic/add/add",
+			"style": {}
+		}, {
+			"path": "pages/more/more",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+			}
+		}, {
+			"path": "pages/topic/class-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/discuss/add",
+			"style": {}
+		}, {
+			"path": "pages/user/edit-info/edit",
+			"style": {}
+		}, {
+			"path": "pages/user/edit-info/submit",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/topic/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/jump/jump",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		},{
+			"path": "pages/post/video-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/discuss/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	    ,{
+            "path" : "pages/choose-topic/choose-topic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/webview/webview",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/topic-user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/sms-login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/info-edit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/add/shoose-class",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/topic/admin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/vote/vote",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/choose-discuss/choose-discuss",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "DeadLine",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
