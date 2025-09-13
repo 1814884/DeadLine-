@@ -1,0 +1,43 @@
+{
+  "name": "xiaohongshu-app",
+  "version": "1.0.0",
+  "description": "仿小红书UniApp应用",
+  "main": "main.js",
+  "scripts": {
+    "serve": "npm run dev:h5",
+    "build": "npm run build:h5",
+    "dev:app": "uni build --platform app",
+    "dev:h5": "uni build --platform h5",
+    "dev:mp-weixin": "uni build --platform mp-weixin",
+    "dev:mp-alipay": "uni build --platform mp-alipay",
+    "dev:mp-baidu": "uni build --platform mp-baidu",
+    "dev:mp-toutiao": "uni build --platform mp-toutiao",
+    "dev:mp-qq": "uni build --platform mp-qq",
+    "build:app": "uni build --platform app --mode production",
+    "build:h5": "uni build --platform h5 --mode production",
+    "build:mp-weixin": "uni build --platform mp-weixin --mode production",
+    "build:mp-alipay": "uni build --platform mp-alipay --mode production",
+    "build:mp-baidu": "uni build --platform mp-baidu --mode production",
+    "build:mp-toutiao": "uni build --platform mp-toutiao --mode production",
+    "build:mp-qq": "uni build --platform mp-qq --mode production"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0",
+    "@dcloudio/uni-components": "^3.0.0",
+    "@dcloudio/uni-h5": "^3.0.0",
+    "@dcloudio/uni-mp-alipay": "^3.0.0",
+    "@dcloudio/uni-mp-baidu": "^3.0.0",
+    "@dcloudio/uni-mp-qq": "^3.0.0",
+    "@dcloudio/uni-mp-toutiao": "^3.0.0",
+    "@dcloudio/uni-mp-weixin": "^3.0.0",
+    "@dcloudio/uni-quickapp-webview": "^3.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.0.0",
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "@dcloudio/vite-plugin-uni": "^3.0.0",
+    "typescript": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
